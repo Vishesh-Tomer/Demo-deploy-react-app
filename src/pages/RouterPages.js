@@ -7,6 +7,8 @@ import {
 
 import Home from './Home'
 import About from './About'
+import Menu from './Menu';
+import OurUpadtes from './OurUpadtes';
 
 
 export default function RouterPages() {
@@ -16,6 +18,8 @@ export default function RouterPages() {
             <Switch>
                 <Route path="/" exact component = {Home} />
                 <Route path="/about" exact component = {About} />
+                <Route path="/menu" exact component = {Menu} />
+                <Route path="/ourupdates" exact component = {OurUpadtes} />
             </Switch>
         </Router>
     </div>

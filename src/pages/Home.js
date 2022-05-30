@@ -21,22 +21,20 @@ export default function Home() {
 
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav mx-auto">
-                        <li className="nav-item">
-                        {/* <a class="nav-link active" href="/">Home</a> */}
-                       <Link to = "/">Home</Link>
+                    <li className="nav-item">
+                             <Link to = '/'>Home</Link>
                         </li>
 
-                        <li className="nav-item">
-                        {/* <a class="nav-link" href="/">Story</a> */}
-                        <Link to = "/about">About</Link>
+                        <li className="nav-item mx-4">
+                        <Link to = '/About '>About</Link>
                         </li>
 
-                        <li className="nav-item">
-                            <a className="nav-link" href="menu.html">Menu</a>
+                        <li class="nav-item mx-4">
+                        <Link to = '/Menu'>Menu</Link>
                         </li>
 
-                        <li className="nav-item">
-                            <a className="nav-link" href="news.html">Our Updates</a>
+                        <li class="nav-item mx-4">
+                        <Link to = '/OurUpdates'>Our Upadtes</Link>
                         </li>
 
                         <li className="nav-item">

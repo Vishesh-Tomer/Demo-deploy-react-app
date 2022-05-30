@@ -20,23 +20,20 @@ export default function About () {
 
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
-                        <li className="nav-item">
-                        {/* <a class="nav-link" href="/">Home</a> */}
+                    <li className="nav-item">
                              <Link to = '/'>Home</Link>
-                    
                         </li>
 
-                        <li className="nav-item">
-                        {/* <a class="nav-link active" href="/">Story</a> */}
-                        <Link to = '/About'>About</Link>
+                        <li className="nav-item mx-4">
+                        <Link to = '/About '>About</Link>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="menu.html">Menu</a>
+                        <li class="nav-item mx-4">
+                        <Link to = '/Menu'>Menu</Link>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="news.html">Our Updates</a>
+                        <li class="nav-item mx-4">
+                        <Link to = '/OurUpdates'>Our Upadtes</Link>
                         </li>
 
                         <li class="nav-item">
