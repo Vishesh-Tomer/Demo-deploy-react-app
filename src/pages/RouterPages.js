@@ -9,6 +9,7 @@ import Home from './Home'
 import About from './About'
 import Menu from './Menu';
 import OurUpadtes from './OurUpadtes';
+import Contact from './Contact';
 
 
 export default function RouterPages() {
@@ -20,6 +21,7 @@ export default function RouterPages() {
                 <Route path="/about" exact component = {About} />
                 <Route path="/menu" exact component = {Menu} />
                 <Route path="/ourupdates" exact component = {OurUpadtes} />
+                <Route path="/contact" exact component = {Contact} />
             </Switch>
         </Router>
     </div>

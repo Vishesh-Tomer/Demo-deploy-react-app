@@ -21,23 +21,23 @@ export default function Menu() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav mx-auto">
                     <li className="nav-item">
-                             <Link to = '/'>Home</Link>
+                    <Link to = '/'>Home</Link>
                         </li>
 
                         <li className="nav-item mx-4">
-                        <Link to = '/About '>About</Link>
+                        <Link to = '/about '>About</Link>
                         </li>
 
                         <li class="nav-item mx-4">
-                        <Link to = '/Menu'>Menu</Link>
+                        <Link to = '/menu'>Menu</Link>
                         </li>
 
                         <li class="nav-item mx-4">
-                        <Link to = '/OurUpdates'>Our Upadtes</Link>
+                        <Link to = '/ourupdates'>Our Upadtes</Link>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="contact.html">Contact</a>
+                        <Link to = '/contact'>Contact</Link>
                         </li>
                     </ul>
                 </div>

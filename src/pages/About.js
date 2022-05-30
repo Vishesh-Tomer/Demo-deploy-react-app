@@ -2,6 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 export default function About () {
+
+    const mystyle = {
+        color : 'red',
+        backgroundcolor : 'black'
+    }
   return (
     <>
         <nav class="navbar navbar-expand-lg bg-white shadow-lg">
@@ -21,23 +26,23 @@ export default function About () {
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
                     <li className="nav-item">
-                             <Link to = '/'>Home</Link>
+                    <Link to = '/'>Home</Link>
                         </li>
 
                         <li className="nav-item mx-4">
-                        <Link to = '/About '>About</Link>
+                        <Link to = '/about '>About</Link>
                         </li>
 
                         <li class="nav-item mx-4">
-                        <Link to = '/Menu'>Menu</Link>
+                        <Link to = '/menu'>Menu</Link>
                         </li>
 
                         <li class="nav-item mx-4">
-                        <Link to = '/OurUpdates'>Our Upadtes</Link>
+                        <Link to = '/ourupdates'>Our Upadtes</Link>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                        <li className="nav-item">
+                        <Link to = '/contact'>Contact</Link>
                         </li>
                     </ul>
                 </div>
